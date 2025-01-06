@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID:252 Fetch Local JSON Example</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        body.dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+        h1 {
+            color: #333;
+        }
+        body.dark-mode h1 {
+            color: #fff;
+        }
+        button {
+            background-color: rgb(255, 255, 255);
+            color: rgb(255, 16, 16);
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0c0d0c;
+        }
+        #userInfo {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+        body.dark-mode #userInfo {
+            background-color: #444;
+            border-color: #555;
+        }
+        .theme-toggle {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Information</h1>
+    <button class="theme-toggle" onclick="toggleTheme()">Toggle Dark Mode</button>
+    <button onclick="fetchUserData()">Get User Data</button>
+    <button onclick="goBack()">Go Back</button>
+    <div id="userInfo"></div>
+    <!-- JavaScript file -->
+    <script src="../script.js"></script>
+</body>
+</html>

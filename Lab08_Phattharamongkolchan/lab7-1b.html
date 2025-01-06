@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="demo">
+  <h2>The Fetch API</h2>
+  <button type="button" onclick="loadContent()">Show Content</button>
+</div>
+
+<script>
+function loadContent() {
+  fetch('info.txt')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.text();
+    })
+    .then(data => {
+      document.getElementById("demo").innerHTML = data;
+    })
+    .catch(error => {
+      console.error('There was a problem with the fetch operation:', error);
+    });
+}
+</script>
+
+</body>
+</html>

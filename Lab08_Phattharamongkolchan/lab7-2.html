@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML Data to Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        /* Styling even and odd rows */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+<h2>CD Catalog</h2>
+<button type="button" onclick="loadXMLDoc()">Load Catalog</button>
+<br><br>
+<table id="cdTable">
+    <tr>
+        <th>Title</th>
+        <th>Artist</th>
+        <th>Country</th>
+        <th>Company</th>
+        <th>Price</th>
+        <th>Year</th>
+    </tr>
+</table>
+
+<script>
+function loadXMLDoc() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState === 4 && this.status === 200) {
+            displayCDs(this);
+        }
+    };
+    xhttp.open("GET", "cd_catalog.xml", true);
+    xhttp.send();
+}
+
+function displayCDs(xml) {
+    var i;
+    var xmlDoc = xml.responseXML;
+    var table = "<tr><th>Title</th><th>Artist</th><th>Country</th><th>Company</th><th>Price</th><th>Year</th></tr>";
+    var cds = xmlDoc.getElementsByTagName("CD");
+    
+    for (i = 0; i < cds.length; i++) {
+        table += "<tr><td>" +
+        cds[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        cds[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        cds[i].getElementsByTagName("COUNTRY")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        cds[i].getElementsByTagName("COMPANY")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        cds[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        cds[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+    }
+    document.getElementById("cdTable").innerHTML = table;
+}
+</script>
+
+</body>
+</html>

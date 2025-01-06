@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+table {
+    text-align: center;
+    margin-bottom: 5px;
+    gap: 10px;
+    margin-bottom: 50px;
+    
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color:burlywood;

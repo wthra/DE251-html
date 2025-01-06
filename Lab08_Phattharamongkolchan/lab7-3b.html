@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 7-3: jQuery and AJAX</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<h1>Load Content using jQuery load() Method</h1>
+<button id="loadBtn">Show Text</button>
+<div id="result"></div>
+
+<script>
+$(document).ready(function(){
+    $("#loadBtn").click(function(){
+        // Use the load() method to load content from the external file
+        $("#result").load("mytext.txt #mytext", function(response, status, xhr) {
+            if(status == "error") {
+                $("#result").html("Error: " + xhr.status + " " + xhr.statusText);
+            }
+        });
+    });
+});
+</script>
+
+</body>
+</html>

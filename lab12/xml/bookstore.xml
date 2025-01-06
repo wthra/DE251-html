@@ -1,0 +1,12 @@
+<bookstore>
+    <book>
+        <title>Learning JavaScript</title>
+        <author>John Smith</author>
+        <price>29.99</price>
+    </book>
+    <book>
+        <title>Understanding HTML</title>
+        <author>Jane Doe</author>
+        <price>19.99</price>
+    </book>
+</bookstore>
