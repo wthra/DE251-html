@@ -87,6 +87,8 @@ password: admin123
 username: user
 password: user123
 
+Report:
+https://drive.google.com/file/d/12Qb3_XMoyo0Oi05_rqLH8eIaLKmCiCfX/view
 
 This is a complete sample website.
 
