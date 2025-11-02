@@ -10,7 +10,7 @@ Project tutorial
 1. การติดตั้งโปรแกรมที่จำเป็น
 ดาวน์โหลดและติดตั้ง XAMPP
 เครือข่ายส่วนตัวเสมือนภายใน (VPN) ของมหาวิทยาลัยศรีนครินทรวิโรฒ
-ตรวจสอบการทำงานของเซิร์ฟเวอร์ 10.1.3.40 โดยเปิดเบราว์เซอร์และพิมพ์ http://10.1.3.40/phpmyadmin/index.php
+ตรวจสอบการทำงานของเซิร์ฟเวอร์ 10.1.3.40 โดยเปิดเบราว์เซอร์และพิมพ์ https://661010170.waridee.com/project/index.php (copy)
 เข้าสู่ phpMyAdmin ด้วย Username: 66102010173 และ Password: 66102010173
 2. การตั้งค่าฐานข้อมูล
 เข้าสู่ phpMyAdmin
@@ -35,3 +35,4 @@ Project tutorial
 https://youtu.be/vKOMEFblN1Q?si=_UYQ8kUbQw7EsDtm
 2. ลิงค์การแสดง Demo
 https://youtu.be/UJ4_SqfBuBs?si=lO4pFnNFyQFM1PuV
+
