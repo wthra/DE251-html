@@ -61,6 +61,8 @@ $user = "root"; // เปลี่ยน user ตาม MySQL ที่ใช้
 $password = ""; // เปลี่ยน password ตาม MySQL ที่ใช้
 $database = "ecommerce"; // ชื่อฐานข้อมูล
 
+**  https://661010170.waridee.com/project/index.php (copy) **
+
 การติดตั้งฐานข้อมูล
 
 เข้าสู่ PHPMyAdmin:
