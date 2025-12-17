@@ -1,5 +1,7 @@
 # 🌸 Little Orchid Shop (E-Commerce)
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Site-2ea44f?style=for-the-badge&logo=google-chrome&logoColor=white)](https://661010170.waridee.com/project/index.php)
+
 **Little Orchid Shop** is a dynamic, lightweight e-commerce web application built with **PHP** and **MySQL**. This project demonstrates a fully functional online store featuring a user-friendly frontend for customers and a robust dashboard for administrators to manage products, orders, and sales performance.
 
 The interface is styled with **Bootstrap 5**, ensuring a responsive and modern design across all devices.
