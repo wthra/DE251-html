@@ -64,17 +64,18 @@ $password = ''; // Leave empty for XAMPP
 
 ```
 
-User Roles and Credentials
+### **User Roles and Credentials**
+
 The application includes predefined accounts to help you test role-based access control:
 
-User Role:
+1. **User Role**:
+   - **Username**: `user`
+   - **Password**: `user123`
 
-Username: user
-Password: user123
-Admin Role:
+2. **Admin Role**:
+   - **Username**: `admin`
+   - **Password**: `admin123`
 
-Username: admin
-Password: admin123
 Use these credentials to log in and explore the respective functionalities for users and administrators.
 
 
