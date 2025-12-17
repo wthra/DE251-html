@@ -1,4 +1,4 @@
-# 🌸 Little Orchid Shop (E-Commerce)
+<img width="975" height="943" alt="product" src="https://github.com/user-attachments/assets/9f5c29a3-633c-427c-b9a1-15b5800aa33b" /><img width="1887" height="965" alt="login" src="https://github.com/user-attachments/assets/4d9ed520-da97-4b61-b323-40b58f4aba4a" /># 🌸 Little Orchid Shop (E-Commerce)
 
 **Little Orchid Shop** is a dynamic, lightweight e-commerce web application built with **PHP** and **MySQL**. This project demonstrates a fully functional online store featuring a user-friendly frontend for customers and a robust dashboard for administrators to manage products, orders, and sales performance.
 
@@ -6,12 +6,29 @@ The interface is styled with **Bootstrap 5**, ensuring a responsive and modern d
 
 ---
 
+## 📸 Screenshots
+
+| **Homepage** | **Product Details** |
+|:---:|:---:|
+| ![Home Page](img/<img width="978" height="912" alt="homepage" src="https://github.com/user-attachments/assets/70a1820a-c4ab-44bf-97e5-b98727ed0c42" />
+) | ![Product Page](img/<img width="975" height="943" alt="product" src="https://github.com/user-attachments/assets/5530795a-da6e-4b06-8878-7d88b029bfbf" />
+) |
+| *Featured products and banner* | *Detailed view with add-to-cart* |
+
+| **Shopping Cart** | **Admin Dashboard** |
+|:---:|:---:|
+| ![Cart](img/<img width="991" height="862" alt="cart" src="https://github.com/user-attachments/assets/330cfc43-48be-441f-8ea7-77bdf3cb044b" />
+) | ![Admin Dashboard](img/<img width="1787" height="962" alt="admin_role" src="https://github.com/user-attachments/assets/a30d2ffd-6b09-453e-ad86-c7a69b585ce5" />
+) |
+
+---
+
 ## 🚀 Tech Stack
 
 * **Backend:** PHP (PDO & MySQLi)
 * **Frontend:** HTML5, CSS3, Bootstrap 5.3.2
-* **Database:** MySQL
-* **Scripting:** JavaScript
+* **Database:** MySQL (Relational Database)
+* **Scripting:** JavaScript (DOM Manipulation)
 
 ---
 
@@ -29,9 +46,20 @@ The interface is styled with **Bootstrap 5**, ensuring a responsive and modern d
     * Total Revenue & Average Order Value
     * Total Orders & Products
     * Pending Orders alert
-* **Inventory Management:** Add, edit, and delete products easily.
+* **Inventory Management:** Add, edit, and delete products easily with image upload support.
 * **Order Processing:** Update order statuses (e.g., Pending → Shipped → Completed).
 * **User Management:** Oversee registered users and system access.
+
+---
+
+## 🗄️ Database Schema
+
+The system uses a relational database with the following key tables:
+
+* **`users`**: Stores customer and admin credentials (hashed passwords).
+* **`products`**: Contains product details, prices, stock levels, and image paths.
+* **`orders`**: Records order metadata (user ID, shipping address, total status).
+* **`order_items`**: Links orders to specific products and quantities.
 
 ---
 
@@ -41,8 +69,8 @@ Follow these steps to run the project locally:
 
 ### 1. Prerequisites
 Ensure you have a local server environment installed:
-* [XAMPP](https://www.apachefriends.org/) (Recommended)
-* WAMP or MAMP
+* [XAMPP](https://www.apachefriends.org/) (Recommended for Windows)
+* WAMP or MAMP (Mac/Linux)
 
 ### 2. Clone or Download
 Download the source code and place the folder into your server's root directory:
