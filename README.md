@@ -1,4 +1,4 @@
-# 🌸 Little Orchid Shop (E-Commerce)
+# Little Orchid Shop (E-Commerce)
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Site-2ea44f?style=for-the-badge&logo=google-chrome&logoColor=white)](https://661010170.waridee.com/project/index.php)
 
@@ -8,7 +8,7 @@ The interface is styled with **Bootstrap 5**, ensuring a responsive and modern d
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 | **Homepage** | **Product Details** |
 |:---:|:---:|
@@ -22,7 +22,7 @@ The interface is styled with **Bootstrap 5**, ensuring a responsive and modern d
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 * **Backend:** PHP (PDO & MySQLi)
 * **Frontend:** HTML5, CSS3, Bootstrap 5.3.2
@@ -31,16 +31,16 @@ The interface is styled with **Bootstrap 5**, ensuring a responsive and modern d
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🛒 For Customers (User)
+###  For Customers (User)
 * **Responsive Browsing:** View featured products, best sellers, and detailed descriptions.
 * **Shopping Cart System:** Add items, adjust quantities, and remove products seamlessly (Session-based).
 * **Secure Checkout:** Complete orders with shipping details and payment method selection.
 * **Order Tracking:** View order history and real-time status updates via the user account panel.
 * **Authentication:** Secure registration and login functionality.
 
-### 🛠️ For Administrators (Admin)
+###  For Administrators (Admin)
 * **Dashboard Overview:** Visualize key metrics at a glance:
     * Total Revenue & Average Order Value
     * Total Orders & Products
@@ -51,7 +51,7 @@ The interface is styled with **Bootstrap 5**, ensuring a responsive and modern d
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 The system uses a relational database with the following key tables:
 
@@ -62,7 +62,7 @@ The system uses a relational database with the following key tables:
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 Follow these steps to run the project locally:
 
@@ -109,7 +109,7 @@ Use these credentials to log in and explore the respective functionalities for u
 5. Run the Project
 Open your browser and navigate to: http://localhost/simple-ecommerce-shop/
 
-🔐 Login Credentials (Demo)
+ Login Credentials (Demo)
 The project comes with pre-configured accounts for testing:
 
 Role Username Password  Access Level
@@ -117,7 +117,7 @@ Admin admin   admin123  "Full Access (Dashboard, Products, Orders)"
 User  user    user123   "Shopping, Cart, Order History"
 
 
-📂 Project Structure
+ Project Structure
 ```
 /simple-ecommerce-shop
 ├── admin_dashboard.php  # Admin control panel
